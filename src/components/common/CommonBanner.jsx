@@ -4,7 +4,7 @@ import dotImage from "../../assets/Dot.png";
 const CommonBanner = ({ title, bread1, bread2, bannerImage }) => {
   return (
     <div
-      className="hero h-[260px] bg-fixed"
+      className="hero h-[300px] bg-fixed"
       style={{
         backgroundImage: `url(${bannerImage})`,
       }}>
