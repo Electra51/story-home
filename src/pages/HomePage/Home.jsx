@@ -4,6 +4,7 @@ import FeaturedServicePart from "./FeaturedServices/FeaturedServicePart";
 import EstimatePart from "./EstimatePart/EstimatePart";
 import REviewPart from "./ReviewPart/REviewPart";
 import BrandingPart from "./BrandingPart/BrandingPart";
+import ProjectPart from "./ProjectPart/ProjectPart";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <EstimatePart />
       <REviewPart />
       <BrandingPart />
+      <ProjectPart />
     </>
   );
 };

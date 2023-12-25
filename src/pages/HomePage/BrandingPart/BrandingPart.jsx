@@ -18,13 +18,13 @@ const BrandingPart = () => {
                   />
                 </a>
                 <a class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                  <img src={branding1} alt="image" class="w-full h-8" />
+                  <img src={branding1} alt="image" class="w-full h-6" />
                 </a>
                 <a class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
                   <img src={branding2} alt="image" class="w-full h-8" />
                 </a>
                 <a class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                  <img src={branding3} alt="image" class="w-full h-8" />
+                  <img src={branding3} alt="image" class="w-full h-6" />
                 </a>{" "}
                 <a class="mx-4 flex w-[100px] items-center justify-center py-5 2xl:w-[90px]">
                   <img src={branding4} alt="image" class="w-full h-8" />

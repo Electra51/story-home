@@ -89,3 +89,54 @@ button {
 .slick-dots li.slick-active button:before {
   color: orange !important;
 }
+
+.box {
+  background: white;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  position: relative;
+}
+
+.studio-button {
+  position: absolute;
+  bottom: 16px;
+  right: 5px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  background: #895531;
+  color: white;
+  padding: 8px 13px;
+  border-radius: 50px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: 0.35s ease all;
+  overflow: hidden;
+  max-width: 50px; /* icon size */
+  height: 50px;
+}
+
+.studio-button-icon {
+  position: relative;
+  top: 1px;
+}
+
+.studio-button-label {
+  white-space: nowrap;
+  padding: 0 8px;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: 0.25s ease all;
+}
+
+.box:hover {
+  .studio-button {
+    max-width: 100%;
+  }
+  .studio-button-label {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 0.25s 0.1s ease-in opacity,
+      0.15s 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275) transform;
+  }
+}
