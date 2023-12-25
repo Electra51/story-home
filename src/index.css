@@ -82,14 +82,10 @@ button {
   }
 }
 
-/* .slick-list {
-  margin-top: 0px;
+.slick-slide > div {
+  margin: 0 10px;
 }
 
-.slick-slider {
-  overflow-x: hidden;
+.slick-dots li.slick-active button:before {
+  color: orange !important;
 }
-
-.slide-img img {
-  width: 2117px !important;
-} */

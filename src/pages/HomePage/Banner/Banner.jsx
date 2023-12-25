@@ -1,6 +1,5 @@
 import React from "react";
 import heroBanner from "../../../assets/heroBanner.png";
-import { MdArrowBack, MdArrowForward } from "react-icons/md";
 import Button from "../../../components/common/Button";
 const Banner = () => {
   return (
