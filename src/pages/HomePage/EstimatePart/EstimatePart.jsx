@@ -3,6 +3,7 @@ import estimateImg from "../../../assets/new.png";
 import estimate1Img from "../../../assets/estimate1Img.png";
 import Button from "../../../components/common/Button";
 import { IoCallOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 const EstimatePart = () => {
   return (
     <>
@@ -43,7 +44,10 @@ const EstimatePart = () => {
               </p>
             </div>
           </div>
-          <Button title={"Get Free Estimate"} />
+          <Link to={"/pricing"}>
+            {" "}
+            <Button title={"Get Free Estimate"} />
+          </Link>
         </div>
       </div>
     </>
