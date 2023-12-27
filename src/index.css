@@ -97,6 +97,23 @@ button {
   grid-template-columns: 64px 1fr;
   position: relative;
 }
+.studio-button2 {
+  position: absolute;
+  bottom: -12px;
+  right: 5px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  background: #c16828;
+  color: white;
+  padding: 8px 13px;
+  border-radius: 50px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: 0.35s ease all;
+  overflow: hidden;
+  max-width: 50px; /* icon size */
+  height: 50px;
+}
 
 .studio-button {
   position: absolute;
@@ -129,7 +146,7 @@ button {
   transition: 0.25s ease all;
 }
 
-.box:hover {
+/* .box:hover {
   .studio-button {
     max-width: 100%;
   }
@@ -139,4 +156,18 @@ button {
     transition: 0.25s 0.1s ease-in opacity,
       0.15s 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275) transform;
   }
+} */
+.box:hover .studio-button {
+  max-width: 100%;
+}
+
+.box:hover .studio-button-label {
+  opacity: 1;
+  transform: translateX(0);
+  transition: 0.25s 0.1s ease-in opacity,
+    0.15s 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275) transform;
+}
+
+.box:hover .studio-button2 {
+  max-width: 100%;
 }

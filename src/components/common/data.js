@@ -6,7 +6,9 @@ import projectImg5 from "../../assets/projectImage/studyroom.jpg";
 import projectImg6 from "../../assets/projectImage/kitchen.jpg";
 import projectImg7 from "../../assets/projectImage/wall.jpg";
 import projectImg8 from "../../assets/projectImage/office.jpg";
-
+import article1 from "../../assets/articlesImage/kitchenArticle.png";
+import article2 from "../../assets/articlesImage/interior.png";
+import article3 from "../../assets/articlesImage/livingArticle.png";
 export const menus = [
   { to: "/home", label: "Home" },
   { to: "/about", label: "About" },
@@ -379,5 +381,29 @@ export const projectData = [
     cient_reviews: "",
     price: "",
     passage: "",
+  },
+];
+
+export const articleData = [
+  {
+    id: 1,
+    title: "Let’s Get Solution For Building Construction Work",
+    tag: "Kitchen",
+    img: article1,
+    date: "26 December,2022",
+  },
+  {
+    id: 2,
+    title: "Low Cost Latest Invented Interior Designing Ideas.",
+    tag: "Kitchen",
+    img: article2,
+    date: "22 November,2023",
+  },
+  {
+    id: 3,
+    title: "Best For Any Office & Business Interior Solution",
+    tag: "Kitchen",
+    img: article3,
+    date: "4 December,2023",
   },
 ];
