@@ -9,6 +9,13 @@ import projectImg8 from "../../assets/projectImage/office.jpg";
 import article1 from "../../assets/articlesImage/kitchenArticle.png";
 import article2 from "../../assets/articlesImage/interior.png";
 import article3 from "../../assets/articlesImage/livingArticle.png";
+
+import aboutImg1 from "../../assets/aboutImage/img1.jpg";
+import aboutImg2 from "../../assets/aboutImage/img2.jpg";
+import aboutImg3 from "../../assets/aboutImage/img3.jpg";
+import aboutImg4 from "../../assets/aboutImage/img4.jpg";
+import aboutImg5 from "../../assets/aboutImage/img5.png";
+import aboutImg6 from "../../assets/aboutImage/img6.jpg";
 export const menus = [
   { to: "/home", label: "Home" },
   { to: "/about", label: "About" },
@@ -405,5 +412,59 @@ export const articleData = [
     tag: "Kitchen",
     img: article3,
     date: "4 December,2023",
+  },
+];
+
+export const persons = [
+  {
+    img: aboutImg1,
+    title:
+      "chief financial officer and executive vice president for global finance, aon plc",
+    name: "Christa Davies",
+  },
+  {
+    img: aboutImg2,
+    title: "revenue and financial management, stripe",
+    name: "Vivek Sharma",
+  },
+  {
+    img: aboutImg3,
+    title: "head of product marketing, stripe",
+    name: "Tanya Khakbaz",
+  },
+  {
+    img: aboutImg4,
+    title: "head of global sales, stripe",
+    name: "Eileen O'Mara",
+  },
+  {
+    img: aboutImg5,
+    title: "founder, pulley",
+    name: "Yin Wu",
+  },
+  {
+    img: aboutImg1,
+    title: "ceo and cofounder, crowdai",
+    name: "Devaki Raj",
+  },
+  {
+    img: aboutImg6,
+    title: "co-head of payments, wix",
+    name: "Amit Sagiv",
+  },
+  {
+    img: aboutImg2,
+    title: "general partner, andreessen horowitz",
+    name: "Angela Strange",
+  },
+  {
+    img: aboutImg4,
+    title: "head of global sales, stripe",
+    name: "Eileen O'Mara",
+  },
+  {
+    img: aboutImg5,
+    title: "founder, pulley",
+    name: "Yin Wu",
   },
 ];
