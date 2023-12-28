@@ -1,7 +1,7 @@
 import REviewPart from "../HomePage/ReviewPart/REviewPart";
 import AboutCarousel from "./AboutCarousel";
 import AboutSecondPart from "./AboutSecondPart";
-import ContactPage from "./ContactPage";
+import ContactPart from "./Contactpart";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
       <AboutCarousel />
       <AboutSecondPart />
       <REviewPart />
-      <ContactPage />
+      <ContactPart />
     </div>
   );
 };

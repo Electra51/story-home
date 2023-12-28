@@ -20,10 +20,10 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="h-[98px] border-b border-[#EFEFEF] relative">
+    <div className="h-[98px] relative">
       <div className="navbar max-w-[1200px] mx-auto mt-0 lg:mt-[29px] bg-base-100 flex justify-normal gap-[60px] items-end">
         <div className="flex justify-normal items-center">
-          <div className="flex justify-between items-end divide-x divide-[#F4F4F4]">
+          <div className="flex justify-between items-end">
             <Link to="/">
               <img src={navLogo} alt="" className="w-[120px] lg:w-[340px]" />
             </Link>
