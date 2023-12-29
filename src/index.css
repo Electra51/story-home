@@ -146,17 +146,6 @@ button {
   transition: 0.25s ease all;
 }
 
-/* .box:hover {
-  .studio-button {
-    max-width: 100%;
-  }
-  .studio-button-label {
-    opacity: 1;
-    transform: translateX(0);
-    transition: 0.25s 0.1s ease-in opacity,
-      0.15s 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275) transform;
-  }
-} */
 .box:hover .studio-button {
   max-width: 100%;
 }
@@ -170,4 +159,21 @@ button {
 
 .box:hover .studio-button2 {
   max-width: 500px;
+}
+.scroll-to-top {
+  background-color: #c16828 !important;
+  right: 40px;
+  bottom: 40px;
+  position: fixed;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 100% !important;
+  width: 50px !important;
+  display: flex;
+  justify-items: center;
+  height: 50px !important;
+  box-shadow: 0 9px 25px 0 rgba(132, 128, 177, 0.28);
+  border: none;
+  justify-content: center;
+  align-items: center;
 }
