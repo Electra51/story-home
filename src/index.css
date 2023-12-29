@@ -99,7 +99,7 @@ button {
 }
 .studio-button2 {
   position: absolute;
-  bottom: -12px;
+  bottom: -25px;
   right: 5px;
   display: flex;
   cursor: pointer;
@@ -169,5 +169,5 @@ button {
 }
 
 .box:hover .studio-button2 {
-  max-width: 100%;
+  max-width: 500px;
 }

@@ -211,6 +211,7 @@ export const projectData = [
     id: 1,
     title: "Modern Delight Bedroom",
     img: projectImg1,
+    type: "Bedroom",
     client: "Sarah T.",
     Category: "bedroom design",
     Tags: [
@@ -247,6 +248,7 @@ export const projectData = [
     id: 2,
     title: "Aesthetic Spaces",
     img: projectImg2,
+    type: "Living",
     client: "Emily H.",
     Category: "living interior",
     Tags: [
@@ -283,6 +285,7 @@ export const projectData = [
     id: 3,
     title: "Moduler Kitchen",
     img: projectImg3,
+    type: "Kitchen",
     Tags: [
       {
         id: 1,
@@ -318,6 +321,7 @@ export const projectData = [
   {
     id: 4,
     title: "Special Living",
+    type: "Living",
     img: projectImg4,
     client: "Samantha Lee",
     Category: "living space",
@@ -333,6 +337,7 @@ export const projectData = [
   {
     id: 5,
     title: "",
+    type: "Bedroom",
     img: projectImg5,
     client: "",
     Category: "",
@@ -346,6 +351,7 @@ export const projectData = [
   {
     id: 6,
     title: "",
+    type: "Kitchen",
     img: projectImg6,
     client: "",
     Category: "",
@@ -359,6 +365,7 @@ export const projectData = [
   {
     id: 7,
     title: "",
+    type: "Bedroom",
     img: projectImg7,
     client: "",
     Category: "",

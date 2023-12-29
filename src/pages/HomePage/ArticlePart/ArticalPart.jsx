@@ -16,9 +16,13 @@ const ArticalPart = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20 lg:grid-cols-3 mt-[100px]">
         {articleData?.slice(0, 4).map((e, i) => {
           return (
-            <div className="h-[500px] border p-3">
-              <div className=" h-[300px] w-full ">
-                <img src={e.img} alt="" className="h-full w-full object-fill" />
+            <div className="h-[480px] border rounded-[20px] p-3">
+              <div className=" h-[300px] w-full rounded-[16px] overflow-hidden">
+                <img
+                  src={e.img}
+                  alt=""
+                  className="h-full w-full object-fill rounded-[16px] hover:scale-125 transition-all duration-500 cursor-pointer"
+                />
               </div>
               <h1 className="text-2xl text-start mt-2">{e.title}</h1>
               <div className="flex justify-between items-center mt-10">

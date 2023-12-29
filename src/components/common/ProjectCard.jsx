@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const ProjectCard = ({ e }) => {
   console.log(e, e);
   return (
-    <div className="">
-      <div className="h-[500px] rounded-tr-[100%]">
+    <div className="h-[600px]">
+      <div className="h-[470px] overflow-hidden">
         <img
           src={e.img}
-          className="h-full w-full object-fill rounded-tr-[50%]"
+          className="h-full w-full object-fill rounded-tr-[80%] hover:scale-125 transition-all duration-500 cursor-pointer hover:rounded-none"
         />
       </div>
       <h1 className="text-[25px] mt-[15px] text-start px-1">{e?.title}</h1>

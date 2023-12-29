@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import navLogo from "../../assets/navLogo1.png";
 const Footer = () => {
   return (
-    <div className="border-t border-[#ECECEC] mt-10">
+    <div className="border-t border-[#ECECEC] pt-7">
       <div className="flex flex-col lg:flex-row justify-start items-center lg:items-start gap-[100px] max-w-[1200px] mx-auto pt-[79px] ">
         <div className="flex flex-col justify-center items-center lg:block">
           <img src={navLogo} alt="" className="w-[120px] lg:w-[150px]" />
