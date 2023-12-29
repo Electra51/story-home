@@ -9,18 +9,18 @@ import projectImg8 from "../../assets/projectImage/office.jpg";
 import article1 from "../../assets/articlesImage/kitchenArticle.png";
 import article2 from "../../assets/articlesImage/interior.png";
 import article3 from "../../assets/articlesImage/livingArticle.png";
-
 import aboutImg1 from "../../assets/aboutImage/img1.jpg";
 import aboutImg2 from "../../assets/aboutImage/img2.jpg";
 import aboutImg3 from "../../assets/aboutImage/img3.jpg";
 import aboutImg4 from "../../assets/aboutImage/img4.jpg";
 import aboutImg5 from "../../assets/aboutImage/img5.png";
 import aboutImg6 from "../../assets/aboutImage/img6.jpg";
+
 export const menus = [
   { to: "/home", label: "Home" },
   { to: "/about", label: "About" },
   { to: "/services", label: "Services" },
-  { to: "/project", label: "Project" },
+  { to: "/projects", label: "Project" },
   { to: "/blog", label: "Blog" },
   { to: "/contact", label: "Contact" },
 ];
@@ -343,11 +343,11 @@ export const projectData = [
   },
   {
     id: 5,
-    title: "",
-    type: "Bedroom",
+    title: "Bathroom Design With Multioloured",
+    type: "Bathroom",
     img: projectImg5,
     client: "",
-    Category: "",
+    Category: "Multioloured Design",
     Tags: "",
     date: "",
     rating: "",
@@ -372,7 +372,7 @@ export const projectData = [
   {
     id: 7,
     title: "",
-    type: "Bedroom",
+    type: "Wall",
     img: projectImg7,
     client: "",
     Category: "",
@@ -389,6 +389,20 @@ export const projectData = [
     img: projectImg8,
     client: "",
     Category: "",
+    Tags: "",
+    date: "",
+    rating: "",
+    cient_reviews: "",
+    price: "",
+    passage: "",
+  },
+  {
+    id: 9,
+    title: "Beige Contemporary Bathroom",
+    type: "Bathroom",
+    img: projectImg5,
+    client: "",
+    Category: "Elegent Bathroom",
     Tags: "",
     date: "",
     rating: "",
