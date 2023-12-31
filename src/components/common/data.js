@@ -5,7 +5,10 @@ import projectImg4 from "../../assets/projectImage/drawing.jpg";
 import projectImg5 from "../../assets/projectImage/studyroom.jpg";
 import projectImg6 from "../../assets/projectImage/kitchen.jpg";
 import projectImg7 from "../../assets/projectImage/wall.jpg";
-import projectImg8 from "../../assets/projectImage/office.jpg";
+import projectImg9 from "../../assets/projectImage/living3.jpg";
+import projectImg10 from "../../assets/projectImage/bedroom2.jpg";
+import projectImg11 from "../../assets/projectImage/babybed.jpg";
+import projectImg12 from "../../assets/projectImage/bathroom2.jpg";
 import article1 from "../../assets/articlesImage/kitchenArticle.png";
 import article2 from "../../assets/articlesImage/interior.png";
 import article3 from "../../assets/articlesImage/livingArticle.png";
@@ -221,7 +224,7 @@ export const projectData = [
     type: "Bedroom",
     client: "Sarah T.",
     Category: "bedroom design",
-    Tags: [
+    tags: [
       {
         id: 1,
         name: "VIP",
@@ -258,7 +261,7 @@ export const projectData = [
     type: "Living",
     client: "Emily H.",
     Category: "living interior",
-    Tags: [
+    tags: [
       {
         id: 1,
         name: "interior",
@@ -293,7 +296,7 @@ export const projectData = [
     title: "Moduler Kitchen",
     img: projectImg3,
     type: "Kitchen",
-    Tags: [
+    tags: [
       {
         id: 1,
         name: "Kitchen",
@@ -348,7 +351,28 @@ export const projectData = [
     img: projectImg5,
     client: "",
     Category: "Multioloured Design",
-    Tags: "",
+    tags: [
+      {
+        id: 1,
+        name: "Bathroom",
+      },
+      {
+        id: 2,
+        name: "modern",
+      },
+      {
+        id: 3,
+        name: "delight",
+      },
+      {
+        id: 4,
+        name: "bedroom",
+      },
+      {
+        id: 5,
+        name: "room",
+      },
+    ],
     date: "",
     rating: "",
     cient_reviews: "",
@@ -357,11 +381,11 @@ export const projectData = [
   },
   {
     id: 6,
-    title: "",
+    title: "Semi Modular Kitchen",
     type: "Kitchen",
     img: projectImg6,
     client: "",
-    Category: "",
+    Category: "Kitchen design",
     Tags: "",
     date: "",
     rating: "",
@@ -385,10 +409,25 @@ export const projectData = [
   },
   {
     id: 8,
-    title: "",
-    img: projectImg8,
+    title: "Minimal bedroom",
+    type: "Bedroom",
+    img: projectImg10,
     client: "",
-    Category: "",
+    Category: "Minimal bed",
+    Tags: "",
+    date: "",
+    rating: "",
+    cient_reviews: "",
+    price: "",
+    passage: "",
+  },
+  {
+    id: 13,
+    title: "Baby Eligent bedroom",
+    type: "Bedroom",
+    img: projectImg11,
+    client: "",
+    Category: "baby bed",
     Tags: "",
     date: "",
     rating: "",
@@ -400,7 +439,7 @@ export const projectData = [
     id: 9,
     title: "Beige Contemporary Bathroom",
     type: "Bathroom",
-    img: projectImg5,
+    img: projectImg12,
     client: "",
     Category: "Elegent Bathroom",
     Tags: "",

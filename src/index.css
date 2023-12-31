@@ -177,3 +177,7 @@ button {
   justify-content: center;
   align-items: center;
 }
+.active {
+  color: #c16828;
+  border-bottom: 1px solid #c16828;
+}
