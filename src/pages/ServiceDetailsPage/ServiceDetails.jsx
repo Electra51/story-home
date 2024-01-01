@@ -15,15 +15,15 @@ const ServiceDetails = () => {
         bread2={"Services"}
         bannerImage={serviceDetailsImage}
       />
-      <div className="mt-[110px] mx-auto max-w-[1200px] mb-[50px]">
-        <h1 className="w-[751px] text-[50px] text-center leading-[43px] mx-auto">
+      <div className="mt-[110px] mx-auto max-w-[360px] md:max-w-[660px] lg:max-w-[1200px] mb-[50px]">
+        <h1 className="lg:w-[751px] text-[30px] lg:text-[50px] text-center leading-[43px] mx-auto">
           We set the trends of modern living services.
         </h1>
         <p className="text-[#C16828] text-[25px] text-center mt-[48px]">
           It is a long established fact that a reader will be distracted by the
           of readable content of a page
         </p>
-        <div className="grid grid-cols-2 gap-12 mt-[85px]">
+        <div className="grid grid-cols-2 gap-12 mt-[85px] mx-5 lg:mx-0">
           <p className="text-[22px] text-justify">
             when lookings at its layouts the points spriof using that it has a
             more less normal.A wonderful serenity has taken pgossession of my
@@ -46,7 +46,7 @@ const ServiceDetails = () => {
         </div>
         <div className="my-[100px]">
           <iframe
-            className="rounded-[60px] h-[580px] w-[1200px]"
+            className="rounded-[30px] lg:rounded-[60px] h-[400] lg:h-[580px] w-[360px] md:w-[660px] lg:w-[1200px]"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/OzUkvzyBttA?si=ElQPDNy99HPa5c4C"
@@ -55,7 +55,7 @@ const ServiceDetails = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
         </div>
-        <div className="grid grid-cols-2 gap-[20px] justify-center divide-x divide-[#CECECE]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[20px] justify-center divide-x divide-[#CECECE]">
           <div>
             <h1 className="text-[50px]">Use of Interior</h1>
             <ol className="text-[22px] text-[#4D5053]">
@@ -107,7 +107,7 @@ const ServiceDetails = () => {
             </ol>
           </div>
         </div>
-        <div className="mt-[130px] grid grid-cols-2 gap-[50px]">
+        <div className="mt-[130px] grid grid-cols-1 lg:grid-cols-2 gap-[50px]">
           <div className="h-[390px]">
             <img
               src={newImage}
