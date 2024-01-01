@@ -1,6 +1,7 @@
 import React from "react";
 import heroBanner from "../../../assets/heroBanner.png";
 import Button from "../../../components/common/Button";
+import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div className="max-w-[360px] md:max-w-[720px] md:h-[380px] lg:max-w-[1200px] h-[310px] lg:h-[650px] mx-auto mt-[35px] lg:mt-[50px] text-white relative rounded-tl-[100px] rounded-br-[100px] bg-gradient-to-tl from-gray-500 to-[#895531]">
@@ -17,9 +18,9 @@ const Banner = () => {
           There are many variations of the passages of lorem Ipsum
           fromavailable, majority.
         </p>
-        <div>
+        <a href="#service">
           <Button title={"Get Started"} />
-        </div>
+        </a>
       </div>
     </div>
   );

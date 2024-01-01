@@ -3,17 +3,15 @@ import Button from "../../components/common/Button";
 
 const ContactPart = () => {
   return (
-    <div className="mx-auto max-w-[1200px] flex flex-col justify-center items-center">
-      <h1 className="text-[50px] w-[634px] text-center">
+    <div className="mx-auto max-w-[1200px] flex flex-col justify-center items-center mb-[174px] md:mt-12 lg:my-[200px]">
+      <h1 className="text-[26px] md:text-[35px] w-[340px] md:w-[480px] lg:w-[700px] lg:text-[50px] text-center">
         Creative project? Let's have a productive talk.
       </h1>
-      <div className="mt-[80px] grid grid-cols-2 gap-10 justify-start items-center">
+      <div className="mt-[80px] grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-10 justify-start items-center">
         <div class="relative">
           <input
-            id="name"
-            name="name"
             type="text"
-            class="peer placeholder-transparent h-10 w-[500px] border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
+            class="peer placeholder-transparent h-10 w-[300px] lg:w-[500px] border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
             placeholder="Your name"
           />
           <label
@@ -22,12 +20,10 @@ const ContactPart = () => {
             Name
           </label>
         </div>
-        <div class="relative">
+        <div class="relative mt-14 md:mt-0 lg:mt-0">
           <input
-            id="Email"
-            name="Email"
             type="Email"
-            class="peer placeholder-transparent h-10 w-[500px] border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
+            class="peer placeholder-transparent h-10 w-[300px] lg:w-[500px] border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
             placeholder="Email"
           />
           <label
@@ -36,22 +32,11 @@ const ContactPart = () => {
             Email
           </label>
         </div>
-
-        {/* <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-                 
-                  <div class="relative">
-                    <button class="bg-blue-500 text-white rounded-md px-2 py-1">
-                      Submit
-                    </button>
-                  </div>
-                </div> */}
       </div>
-      <div class="relative mr-auto mt-[90px] mx-20">
+      <div class="relative mr-[76px] md:mr-auto lg:mr-auto mt-[90px] mx-20">
         <input
-          id="Message"
-          name="Message"
           type="Message"
-          class="peer placeholder-transparent h-10 w-[1050px] border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
+          class="peer placeholder-transparent h-10 w-[300px] md:w-[600px] lg:w-[1050px] border-b-2 border-gray-300 text-gray-900 focus:outline-none focus:borer-rose-600"
           placeholder="Message"
         />
         <label
@@ -60,7 +45,7 @@ const ContactPart = () => {
           Message
         </label>
       </div>{" "}
-      <div className="my-20 ml-[-170px]">
+      <div className="my-42 ml-[-170px]">
         {" "}
         <Button title={"Send Now"} />
       </div>

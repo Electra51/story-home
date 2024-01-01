@@ -70,7 +70,7 @@ const AboutCarousel = () => {
                       ? "md:translate-x-0 md:opacity-100"
                       : "md:translate-x-4 md:opacity-0"
                   )}>
-                  <h1 className="text-sm text-white md:text-lg lg:text-[70px] text-center absolute top-[136px] left-[236px]">
+                  <h1 className=" text-white md:text-[32px] lg:text-[70px] text-center absolute top-[136px] left-[77px] lg:left-[236px]">
                     About Us
                   </h1>
                 </div>

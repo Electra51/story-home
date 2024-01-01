@@ -12,7 +12,7 @@ const Pricing = () => {
         bread1={"Home"}
         bread2={"Pricing"}
       />
-      <div className="mt-[50px] lg:my-[80px] max-w-[360px] md:max-w-[720px] lg:max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 md:gap-3 lg:gap-10">
+      <div className="mt-[50px] lg:my-[100px] max-w-[360px] md:max-w-[720px] lg:max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 md:gap-3 lg:gap-10">
         {PricingData?.map((pricedata, i) => {
           return (
             <div
