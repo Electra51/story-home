@@ -9,6 +9,7 @@ import Projects from "../pages/ProjectsPage/Projects";
 import ServicesPage from "../pages/ServicesPage/ServicesPage";
 import ServiceDetails from "../pages/ServiceDetailsPage/ServiceDetails";
 import ProjectDetails from "../pages/ProjectDetailsPage/ProjectDetails";
+import Blog from "../pages/BlogPages/Blog";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-
+      {
+        path: "/blog",
+        element: <Blog />,
+      },
       {
         path: "/projects",
         element: <Projects />,

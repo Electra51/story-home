@@ -181,3 +181,8 @@ button {
   color: #c16828;
   border-bottom: 1px solid #c16828;
 }
+
+input:focus,
+textarea:focus {
+  outline: none;
+}

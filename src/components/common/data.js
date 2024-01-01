@@ -349,7 +349,7 @@ export const projectData = [
     title: "Bathroom Design With Multioloured",
     type: "Bathroom",
     img: projectImg5,
-    client: "",
+    client: "Trina Shaha",
     Category: "Multioloured Design",
     tags: [
       {
@@ -373,81 +373,198 @@ export const projectData = [
         name: "room",
       },
     ],
-    date: "",
-    rating: "",
-    cient_reviews: "",
-    price: "",
-    passage: "",
+    date: "2014, Feb 17",
+    rating: "4.5",
+    cient_reviews:
+      "I recently had the pleasure of working with StoryHome for the redesign of my bedroom, and the experience exceeded all my expectations. The design team's commitment to creating a modern haven tailored to my lifestyle truly stood out.I highly recommend StoryHome for anyone looking to embark on a journey of modern luxury and personalized design. Their professionalism, creativity, and commitment to client satisfaction make them the go-to choice for modern interior design.",
+    price: "456",
+    passage:
+      "Design Approach:Our team of experienced designers begins by understanding your vision for the ideal modern bedroom. We embrace clean lines, minimalist aesthetics, and innovative solutions to maximize space utilization. From custom-designed furniture to thoughtfully curated decor elements, we ensure every detail contributes to the overall modern ambiance. Our design approach focuses on creating a harmonious balance between comfort and sophistication, transforming your bedroom into a sanctuary of modern luxury. Cost Considerations:We understand that budget is a crucial aspect of any interior design project. Our modern bedroom design solutions are tailored to offer flexibility, allowing you to choose from a range of design options that align with your budgetary constraints. Whether you're looking for a complete bedroom overhaul or seeking to refresh your space with strategic updates, our design team works collaboratively with you to optimize costs without compromising on quality and style. Benefits of Our Modern Bedroom Designs:Contemporary Elegance: Immerse yourself in the allure of contemporary aesthetics that exude sophistication and style.Optimized Functionality: Our designs prioritize functionality, providing smart storage solutions and furniture layouts to enhance your daily living experience.Personalization: Tailor your modern bedroom to reflect your unique personality with customizable design elements and color palettes.Increased Property Value: A thoughtfully designed modern bedroom not only enhances your living experience but also adds value to your property.Long-Term Durability: We source high-quality materials and partner with skilled craftsmen to ensure that your modern bedroom stands the test of time, offering both durability and timeless appeal.",
   },
   {
     id: 6,
     title: "Semi Modular Kitchen",
     type: "Kitchen",
     img: projectImg6,
-    client: "",
+    client: "Shams Sen",
     Category: "Kitchen design",
-    Tags: "",
-    date: "",
-    rating: "",
-    cient_reviews: "",
-    price: "",
-    passage: "",
+    tags: [
+      {
+        id: 1,
+        name: "Bathroom",
+      },
+      {
+        id: 2,
+        name: "modern",
+      },
+      {
+        id: 3,
+        name: "delight",
+      },
+      {
+        id: 4,
+        name: "bedroom",
+      },
+      {
+        id: 5,
+        name: "room",
+      },
+    ],
+    date: "2014, Feb 17",
+    rating: "4.5",
+    cient_reviews:
+      "I recently had the pleasure of working with StoryHome for the redesign of my bedroom, and the experience exceeded all my expectations. The design team's commitment to creating a modern haven tailored to my lifestyle truly stood out.I highly recommend StoryHome for anyone looking to embark on a journey of modern luxury and personalized design. Their professionalism, creativity, and commitment to client satisfaction make them the go-to choice for modern interior design.",
+    price: "456",
+    passage:
+      "Design Approach:Our team of experienced designers begins by understanding your vision for the ideal modern bedroom. We embrace clean lines, minimalist aesthetics, and innovative solutions to maximize space utilization. From custom-designed furniture to thoughtfully curated decor elements, we ensure every detail contributes to the overall modern ambiance. Our design approach focuses on creating a harmonious balance between comfort and sophistication, transforming your bedroom into a sanctuary of modern luxury. Cost Considerations:We understand that budget is a crucial aspect of any interior design project. Our modern bedroom design solutions are tailored to offer flexibility, allowing you to choose from a range of design options that align with your budgetary constraints. Whether you're looking for a complete bedroom overhaul or seeking to refresh your space with strategic updates, our design team works collaboratively with you to optimize costs without compromising on quality and style. Benefits of Our Modern Bedroom Designs:Contemporary Elegance: Immerse yourself in the allure of contemporary aesthetics that exude sophistication and style.Optimized Functionality: Our designs prioritize functionality, providing smart storage solutions and furniture layouts to enhance your daily living experience.Personalization: Tailor your modern bedroom to reflect your unique personality with customizable design elements and color palettes.Increased Property Value: A thoughtfully designed modern bedroom not only enhances your living experience but also adds value to your property.Long-Term Durability: We source high-quality materials and partner with skilled craftsmen to ensure that your modern bedroom stands the test of time, offering both durability and timeless appeal.",
   },
   {
     id: 7,
     title: "",
     type: "Wall",
     img: projectImg7,
-    client: "",
+    client: "Aline Plon",
     Category: "",
-    Tags: "",
-    date: "",
-    rating: "",
-    cient_reviews: "",
-    price: "",
-    passage: "",
+    tags: [
+      {
+        id: 1,
+        name: "Bathroom",
+      },
+      {
+        id: 2,
+        name: "modern",
+      },
+      {
+        id: 3,
+        name: "delight",
+      },
+      {
+        id: 4,
+        name: "bedroom",
+      },
+      {
+        id: 5,
+        name: "room",
+      },
+    ],
+    date: "2014, Feb 17",
+    rating: "4.5",
+    cient_reviews:
+      "I recently had the pleasure of working with StoryHome for the redesign of my bedroom, and the experience exceeded all my expectations. The design team's commitment to creating a modern haven tailored to my lifestyle truly stood out.I highly recommend StoryHome for anyone looking to embark on a journey of modern luxury and personalized design. Their professionalism, creativity, and commitment to client satisfaction make them the go-to choice for modern interior design.",
+    price: "456",
+    passage:
+      "Design Approach:Our team of experienced designers begins by understanding your vision for the ideal modern bedroom. We embrace clean lines, minimalist aesthetics, and innovative solutions to maximize space utilization. From custom-designed furniture to thoughtfully curated decor elements, we ensure every detail contributes to the overall modern ambiance. Our design approach focuses on creating a harmonious balance between comfort and sophistication, transforming your bedroom into a sanctuary of modern luxury. Cost Considerations:We understand that budget is a crucial aspect of any interior design project. Our modern bedroom design solutions are tailored to offer flexibility, allowing you to choose from a range of design options that align with your budgetary constraints. Whether you're looking for a complete bedroom overhaul or seeking to refresh your space with strategic updates, our design team works collaboratively with you to optimize costs without compromising on quality and style. Benefits of Our Modern Bedroom Designs:Contemporary Elegance: Immerse yourself in the allure of contemporary aesthetics that exude sophistication and style.Optimized Functionality: Our designs prioritize functionality, providing smart storage solutions and furniture layouts to enhance your daily living experience.Personalization: Tailor your modern bedroom to reflect your unique personality with customizable design elements and color palettes.Increased Property Value: A thoughtfully designed modern bedroom not only enhances your living experience but also adds value to your property.Long-Term Durability: We source high-quality materials and partner with skilled craftsmen to ensure that your modern bedroom stands the test of time, offering both durability and timeless appeal.",
   },
   {
     id: 8,
     title: "Minimal bedroom",
     type: "Bedroom",
     img: projectImg10,
-    client: "",
+    client: "Rafia Rifat",
     Category: "Minimal bed",
-    Tags: "",
-    date: "",
-    rating: "",
-    cient_reviews: "",
-    price: "",
-    passage: "",
+    tags: [
+      {
+        id: 1,
+        name: "Bathroom",
+      },
+      {
+        id: 2,
+        name: "modern",
+      },
+      {
+        id: 3,
+        name: "delight",
+      },
+      {
+        id: 4,
+        name: "bedroom",
+      },
+      {
+        id: 5,
+        name: "room",
+      },
+    ],
+    date: "2014, Feb 17",
+    rating: "4.5",
+    cient_reviews:
+      "I recently had the pleasure of working with StoryHome for the redesign of my bedroom, and the experience exceeded all my expectations. The design team's commitment to creating a modern haven tailored to my lifestyle truly stood out.I highly recommend StoryHome for anyone looking to embark on a journey of modern luxury and personalized design. Their professionalism, creativity, and commitment to client satisfaction make them the go-to choice for modern interior design.",
+    price: "456",
+    passage:
+      "Design Approach:Our team of experienced designers begins by understanding your vision for the ideal modern bedroom. We embrace clean lines, minimalist aesthetics, and innovative solutions to maximize space utilization. From custom-designed furniture to thoughtfully curated decor elements, we ensure every detail contributes to the overall modern ambiance. Our design approach focuses on creating a harmonious balance between comfort and sophistication, transforming your bedroom into a sanctuary of modern luxury. Cost Considerations:We understand that budget is a crucial aspect of any interior design project. Our modern bedroom design solutions are tailored to offer flexibility, allowing you to choose from a range of design options that align with your budgetary constraints. Whether you're looking for a complete bedroom overhaul or seeking to refresh your space with strategic updates, our design team works collaboratively with you to optimize costs without compromising on quality and style. Benefits of Our Modern Bedroom Designs:Contemporary Elegance: Immerse yourself in the allure of contemporary aesthetics that exude sophistication and style.Optimized Functionality: Our designs prioritize functionality, providing smart storage solutions and furniture layouts to enhance your daily living experience.Personalization: Tailor your modern bedroom to reflect your unique personality with customizable design elements and color palettes.Increased Property Value: A thoughtfully designed modern bedroom not only enhances your living experience but also adds value to your property.Long-Term Durability: We source high-quality materials and partner with skilled craftsmen to ensure that your modern bedroom stands the test of time, offering both durability and timeless appeal.",
   },
   {
     id: 13,
     title: "Baby Eligent bedroom",
     type: "Bedroom",
     img: projectImg11,
-    client: "",
+    client: "Tamim Ass",
     Category: "baby bed",
-    Tags: "",
-    date: "",
-    rating: "",
-    cient_reviews: "",
-    price: "",
-    passage: "",
+    tags: [
+      {
+        id: 1,
+        name: "Bathroom",
+      },
+      {
+        id: 2,
+        name: "modern",
+      },
+      {
+        id: 3,
+        name: "delight",
+      },
+      {
+        id: 4,
+        name: "bedroom",
+      },
+      {
+        id: 5,
+        name: "room",
+      },
+    ],
+    date: "2014, Feb 17",
+    rating: "4.5",
+    cient_reviews:
+      "I recently had the pleasure of working with StoryHome for the redesign of my bedroom, and the experience exceeded all my expectations. The design team's commitment to creating a modern haven tailored to my lifestyle truly stood out.I highly recommend StoryHome for anyone looking to embark on a journey of modern luxury and personalized design. Their professionalism, creativity, and commitment to client satisfaction make them the go-to choice for modern interior design.",
+    price: "456",
+    passage:
+      "Design Approach:Our team of experienced designers begins by understanding your vision for the ideal modern bedroom. We embrace clean lines, minimalist aesthetics, and innovative solutions to maximize space utilization. From custom-designed furniture to thoughtfully curated decor elements, we ensure every detail contributes to the overall modern ambiance. Our design approach focuses on creating a harmonious balance between comfort and sophistication, transforming your bedroom into a sanctuary of modern luxury. Cost Considerations:We understand that budget is a crucial aspect of any interior design project. Our modern bedroom design solutions are tailored to offer flexibility, allowing you to choose from a range of design options that align with your budgetary constraints. Whether you're looking for a complete bedroom overhaul or seeking to refresh your space with strategic updates, our design team works collaboratively with you to optimize costs without compromising on quality and style. Benefits of Our Modern Bedroom Designs:Contemporary Elegance: Immerse yourself in the allure of contemporary aesthetics that exude sophistication and style.Optimized Functionality: Our designs prioritize functionality, providing smart storage solutions and furniture layouts to enhance your daily living experience.Personalization: Tailor your modern bedroom to reflect your unique personality with customizable design elements and color palettes.Increased Property Value: A thoughtfully designed modern bedroom not only enhances your living experience but also adds value to your property.Long-Term Durability: We source high-quality materials and partner with skilled craftsmen to ensure that your modern bedroom stands the test of time, offering both durability and timeless appeal.",
   },
   {
     id: 9,
     title: "Beige Contemporary Bathroom",
     type: "Bathroom",
     img: projectImg12,
-    client: "",
+    client: "Tonmoy Pervej",
     Category: "Elegent Bathroom",
-    Tags: "",
-    date: "",
-    rating: "",
-    cient_reviews: "",
-    price: "",
-    passage: "",
+    tags: [
+      {
+        id: 1,
+        name: "Bathroom",
+      },
+      {
+        id: 2,
+        name: "modern",
+      },
+      {
+        id: 3,
+        name: "delight",
+      },
+      {
+        id: 4,
+        name: "bedroom",
+      },
+      {
+        id: 5,
+        name: "room",
+      },
+    ],
+    date: "2014, Feb 17",
+    rating: "4.5",
+    cient_reviews:
+      "I recently had the pleasure of working with StoryHome for the redesign of my bedroom, and the experience exceeded all my expectations. The design team's commitment to creating a modern haven tailored to my lifestyle truly stood out.I highly recommend StoryHome for anyone looking to embark on a journey of modern luxury and personalized design. Their professionalism, creativity, and commitment to client satisfaction make them the go-to choice for modern interior design.",
+    price: "456",
+    passage:
+      "Design Approach:Our team of experienced designers begins by understanding your vision for the ideal modern bedroom. We embrace clean lines, minimalist aesthetics, and innovative solutions to maximize space utilization. From custom-designed furniture to thoughtfully curated decor elements, we ensure every detail contributes to the overall modern ambiance. Our design approach focuses on creating a harmonious balance between comfort and sophistication, transforming your bedroom into a sanctuary of modern luxury. Cost Considerations:We understand that budget is a crucial aspect of any interior design project. Our modern bedroom design solutions are tailored to offer flexibility, allowing you to choose from a range of design options that align with your budgetary constraints. Whether you're looking for a complete bedroom overhaul or seeking to refresh your space with strategic updates, our design team works collaboratively with you to optimize costs without compromising on quality and style. Benefits of Our Modern Bedroom Designs:Contemporary Elegance: Immerse yourself in the allure of contemporary aesthetics that exude sophistication and style.Optimized Functionality: Our designs prioritize functionality, providing smart storage solutions and furniture layouts to enhance your daily living experience.Personalization: Tailor your modern bedroom to reflect your unique personality with customizable design elements and color palettes.Increased Property Value: A thoughtfully designed modern bedroom not only enhances your living experience but also adds value to your property.Long-Term Durability: We source high-quality materials and partner with skilled craftsmen to ensure that your modern bedroom stands the test of time, offering both durability and timeless appeal.",
   },
 ];
 

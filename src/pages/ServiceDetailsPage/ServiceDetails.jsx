@@ -5,6 +5,7 @@ import BrandingPart from "../HomePage/BrandingPart/BrandingPart";
 import newImage from "../../assets/imgService11.png";
 import Button from "../../components/common/Button";
 import StatsPart from "../HomePage/StatsPart/StatsPart";
+import { Link } from "react-router-dom";
 const ServiceDetails = () => {
   return (
     <div>
@@ -122,7 +123,9 @@ const ServiceDetails = () => {
               It is a long established fact that a reader will be distracted by
               the of readable content .
             </p>
-            <Button title={"Our Portfolio"} />
+            <Link to="/projects">
+              <Button title={"Our Portfolio"} />
+            </Link>
           </div>
         </div>
       </div>

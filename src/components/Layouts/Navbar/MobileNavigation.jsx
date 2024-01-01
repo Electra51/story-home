@@ -5,7 +5,7 @@ import MenuLink from "./MenuLink";
 
 const MobileNavigation = ({ setOpen, items }) => (
   <div
-    className="absolute top-0 right-0 h-[100vh] w-[76%] flex-col bg-gray-300 z-[99] shadow-md"
+    className="absolute top-0 right-0 h-[100vh] w-[76%] flex-col bg-[#f7cbab] z-[99] shadow-md"
     style={{ boxShadow: "- 10px 0px 10px 1px #aaaaaa" }}>
     <MdOutlineClose
       className="text-xl mt-1 absolute top-5 right-2"

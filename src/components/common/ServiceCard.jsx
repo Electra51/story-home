@@ -17,7 +17,7 @@ const ServiceCard = ({ e }) => {
         </p>
       )}
 
-      <Link to={`services/${e.id}`}>
+      <Link to={`/services/${e.id}`}>
         {" "}
         <button className="rounded-[10px] py-[10px] px-[20px] lg:py-[10px] lg:px-[20px] flex justify-center items-center gap-1 text-[#4D5053] hover:bg-[#d6763e] hover:text-white mt-2 lg:mt-8 text-xl mx-auto drop-shadow-xl bg-transparent tracking-wide border-b-2 border-[#d6763e] hover:border-[#d6763e] shadow-md">
           <p className="text-[18px] font-semibold">Read More</p>{" "}
