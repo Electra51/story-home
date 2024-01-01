@@ -14,7 +14,7 @@ const LastPart = () => {
       <h1 className="font-medium text-[25px] lg:text-[50px] text-center text-white">
         Wanna join the interno?
       </h1>
-      <p className="mt-24 text-[22px] font-medium text-white">
+      <p className="mt-24 text-[22px] font-medium text-white text-center">
         It is a long established fact will be distracted.
       </p>
 
