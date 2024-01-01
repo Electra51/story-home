@@ -20,7 +20,7 @@ import aboutImg5 from "../../assets/aboutImage/img5.png";
 import aboutImg6 from "../../assets/aboutImage/img6.jpg";
 
 export const menus = [
-  { to: "/home", label: "Home" },
+  { to: "/", label: "Home" },
   { to: "/about", label: "About" },
   { to: "/services", label: "Services" },
   { to: "/projects", label: "Project" },
@@ -526,5 +526,51 @@ export const persons = [
     img: aboutImg5,
     title: "founder, pulley",
     name: "Yin Wu",
+  },
+];
+
+export const serviceData = [
+  {
+    id: 1,
+    title: "Programming",
+    paragraph:
+      "In our initial meeting, we’ll work together and create a detailed design brief to determine your needs and wants, plus the overarching style for your new home. If you have inspiration images, a Houzz Account or a Pinterest board, we’ll go over them and discuss how we can incorporate the things you love. This is also the time to start analyzing the site location to discover views, sun angles, and grades—plus talk about timelines and budgets.",
+    tag: "Needs & dreams!",
+  },
+
+  {
+    id: 2,
+    title: "Schematic Design",
+    paragraph:
+      "During this phase we begin preliminary discussions with the municipality as well ensure your home’s design meets standard building code practices. We’ll start preparing floor plan options for your review and look at room types, room sizes, window placement, and determine your home’s flow.",
+    tag: "Foundations & flows!",
+  },
+  {
+    id: 3,
+    title: "Design Development",
+    paragraph:
+      "Once the floor plan is approved, we’ll start to provide exterior elevations, decide on interior and exterior finishes, and decide on window/door placement, roof lines etc. As well, the interior details start to get solidified. This is the time we’ll go into kitchen layout, bathrooms, millwork, stair location etc. as well as prepare basic interior elevations to show cabinetry design, lighting locations and tile install details.",
+    tag: "Decisions & details!",
+  },
+  {
+    id: 4,
+    title: "Contract Documents",
+    paragraph:
+      "During the contract document phase, architectural and design drawing specs are completed to ensure the design integrity over the life of your project. The package you get may include building elevations and sections, floor plans, the site plan, window schedule, millwork plan, finishes plan, reflected ceiling plan with lighting locations, interior elevations, and other sections as required. There will also be an interior and exterior specifications document that outlines all the materials, finishes, and installation methods. These documents are critical to make sure builders and trades can give fair bids. If you’re dealing with a bank, they often ask for these documents for lending.",
+    tag: "Specs & drawings",
+  },
+  {
+    id: 5,
+    title: "Tender",
+    paragraph:
+      "We have established relationships with a variety of contractors and builders in the Okanagan who can participate in the project tender. We’ll help you through this exciting process by meeting the contractors on site and being available to answer questions. During this phase we will be available to do the following:\nProvide the necessary drawings required to submit for building permits\nPrepare a tender package that outlines key dates and deadlines, the project description, and a formal document that outlines the major categories in construction to be priced.\nRecommend and invite 3-4 contractors/builders to bid on the project\nArrange site visits and introductory meetings between yourselves and the contractor/builder.\nCommunicate to all bidders during the tender phase.\nIssue clarifications and addendums throughout the tender phase to all bidders.\nReview bids and provide an analysis of each bid in order for you to make a confident decision when selecting a contractor/builder",
+    tag: "Bids & builders",
+  },
+  {
+    id: 6,
+    title: "Project Administration",
+    paragraph:
+      "During a project there are often small (or big!) changes that you might make. We’ll work with you during the entire process and stay involved until the bitter end to make sure everything is going according to your plan. During this phase, we:\nAre available to answer any questions the contractor may have during construction.\nTake care of change management if you make changes.\nConduct shop drawing reviews of cabinetry and millwork drawings.\nProvide site visits to ensure the construction is being built as per design drawings.\nWill conduct and issue site changes and change orders as required.\nFrom start to finish, this design process is in place to make sure you get the space you need, want, and have dreamed about! ",
+    tag: "Questions & answers",
   },
 ];

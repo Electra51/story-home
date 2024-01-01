@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import classNames from "classnames";
 import { persons } from "../../components/common/data";
+import { Link } from "react-router-dom";
 const AboutCarousel = () => {
   const [activeItem, setActiveItem] = useState(5);
   const wrapperRef = useRef(null);
@@ -73,6 +74,16 @@ const AboutCarousel = () => {
                   <h1 className=" text-white md:text-[32px] lg:text-[70px] text-center absolute top-[136px] left-[77px] lg:left-[236px]">
                     About Us
                   </h1>
+                  <div className="text-[16px] breadcrumbs mt-32 text-white absolute top-[106px] left-[77px] lg:left-[336px]">
+                    <ul>
+                      <li>
+                        <Link to={"/home"}>home</Link>
+                      </li>
+                      <li>
+                        <a>about</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </li>

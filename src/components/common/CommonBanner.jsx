@@ -1,5 +1,6 @@
 import React from "react";
 import dotImage from "../../assets/Dot.png";
+import { Link } from "react-router-dom";
 
 const CommonBanner = ({ title, bread1, bread2, bannerImage }) => {
   return (
@@ -16,7 +17,7 @@ const CommonBanner = ({ title, bread1, bread2, bannerImage }) => {
       <div className="text-[16px] breadcrumbs mt-32 text-white">
         <ul>
           <li>
-            <a>{bread1}</a>
+            <Link to={"/home"}>{bread1}</Link>
           </li>
           <li>
             <a>{bread2}</a>
