@@ -7,11 +7,7 @@ import { MdSearch } from "react-icons/md";
 const ProjectDetails = () => {
   const { id } = useParams();
   const [idData, setIdData] = useState([]);
-  // useEffect(() => {
-  //   projectData?.map((e) => {
-  //     setIdData(e.id === id);
-  //   });
-  // }, []);
+
   useEffect(() => {
     setIdData(projectData?.filter((e) => e.id == id));
   }, [projectData]);
@@ -20,22 +16,29 @@ const ProjectDetails = () => {
 
   return (
     <div>
-      <CommonBanner title={"Projects Details"} bannerImage={detailsBanner} />
-      <div className="mt-[100px] mx-auto max-w-[1200px]">
+      <CommonBanner
+        title={"Projects Details"}
+        bannerImage={detailsBanner}
+        bread1={"home"}
+        bread2={"ProjectDetails"}
+      />
+      <div className="mt-[100px] mx-auto max-w-[350px] lg:max-w-[1200px]">
         <div className="grid grid-cols-1 gap-10">
           <div>
-            <h1 className="text-[40px]">{idData[0]?.title}</h1>
+            <h1 className="text-[35px] text-center lg:text-start lg:text-[40px]">
+              {idData[0]?.title}
+            </h1>
             <p className="mt-2 text-justify text-[#4D5053] text-[22px]">
               {idData[0]?.passage}
             </p>
           </div>
-          <div className="w-[1200px] h-[541px] relative">
+          <div className="w-[350px] lg:w-[1200px] h-[341px] lg:h-[561px] relative">
             <img
               src={idData[0]?.img}
               alt=""
               className="h-full w-full object-fill rounded-[100px]"
             />
-            <div className="h-[50px] w-[50px] lg:h-[70px] lg:w-[70px] rounded-full flex justify-center items-center bg-white hover:bg-[#C16828] text-[#C16828] hover:text-white text-xl lg:mx-0 drop-shadow-xl overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out absolute top-52 left-[50%]">
+            <div className="h-[50px] w-[50px] lg:h-[70px] lg:w-[70px] rounded-full flex justify-center items-center bg-white hover:bg-[#C16828] text-[#C16828] hover:text-white text-xl lg:mx-0 drop-shadow-xl overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out absolute top-32 lg:top-52 left-[50%]">
               <MdSearch className="h-[32px] w-[32px] " />
             </div>
           </div>
@@ -57,7 +60,7 @@ const ProjectDetails = () => {
               <h1 className="text-[22px]"> Price: </h1>
               <p className="ml-2 text-[22px]">${idData[0]?.price}</p>
             </div>
-            <div className="flex justify-start">
+            <div className="flex justify-start flex-wrap">
               <h1 className="text-[22px]"> Tags : </h1>
               {idData[0]?.tags?.map((i) => {
                 return (
