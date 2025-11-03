@@ -20,8 +20,10 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="h-[98px] relative">
-      <div className="navbar max-w-[1200px] mx-auto mt-0 lg:mt-[29px] bg-base-100 flex justify-normal gap-[60px] items-end">
+    <header className="h-[98px] relative">
+      <nav
+        aria-label="Main navigation"
+        className="navbar max-w-[1200px] mx-auto mt-0 lg:mt-[29px] bg-base-100 flex justify-normal gap-[60px] items-end">
         <div className="flex justify-normal items-center">
           <div className="flex justify-between items-end">
             <Link to="/">
@@ -35,9 +37,9 @@ const Navbar = () => {
           />
         </div>
         <div className="hidden lg:flex navbar-end gap-[20px]">{items}</div>
-      </div>
+      </nav>
       {open && <MobileNavigation setOpen={setOpen} items={items} />}
-    </div>
+    </header>
   );
 };
 

@@ -1,8 +1,6 @@
-import React from "react";
 import servicesBanner from "../../assets/serviceBanner.png";
 import CommonBanner from "../../components/common/CommonBanner";
 import LastPart from "../HomePage/LastPart/LastPart";
-import { MdArrowForward } from "react-icons/md";
 import SectionHeader from "../../components/common/SectionHeader";
 import img1 from "../../assets/serviceImage/1.png";
 import img2 from "../../assets/serviceImage/2.png";
@@ -10,9 +8,17 @@ import img3 from "../../assets/serviceImage/3.png";
 import img4 from "../../assets/serviceImage/4.png";
 import { serviceData } from "../../components/common/data";
 import ServiceCard from "../../components/common/ServiceCard";
+import SEO from "../../components/SEO/SEO";
+
 const ServicesPage = () => {
   return (
     <div>
+      <SEO
+        title="Our Services - StoryHome"
+        description="Explore our interior design services including consultation, 3D design, and complete home makeover solutions"
+        keywords="interior design services, home consultation, 3D design"
+        canonicalUrl="https://65929af45e2c05aed0fdfd40--legendary-taiyaki-a3fbb8.netlify.app/services"
+      />
       <CommonBanner
         title={"Services"}
         bannerImage={servicesBanner}

@@ -1,4 +1,3 @@
-import React from "react";
 import NewImage from "../../../assets/newImage.png";
 import Button from "../../../components/common/Button";
 import { Link } from "react-router-dom";
@@ -19,7 +18,7 @@ const LastPart = () => {
       </p>
 
       <Link to="/contact" className="mt-48 flex justify-center items-center">
-        <Button title={"Contact With Us"} />
+        <Button title={"Contact With Us"} aria={"contact us button"} />
       </Link>
     </div>
   );

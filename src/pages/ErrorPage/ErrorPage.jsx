@@ -1,4 +1,3 @@
-import React from "react";
 import { MdArrowBack } from "react-icons/md";
 import ErrorImage from "../../assets/errorPage.png";
 const ErrorPage = () => {
@@ -17,7 +16,9 @@ const ErrorPage = () => {
           <h1 className="text-center lg:text-start md:text-start text-2xl md:text-[35px] lg:text-[35px] font-normal w-[520px absolute bottom-24 right-0">
             We are sorry, but the page you requested was not found
           </h1>
-          <button className="border rounded-[14px] px-[40px] lg:px-[40px] py-[20px] lg:py-[20px] flex justify-center items-center gap-1 bg-[#FA6410] text-white hover:bg-paragraphColor hover:text-white mt-8 text-xl mx-auto lg:mx-0">
+          <button
+            className="border rounded-[14px] px-[40px] lg:px-[40px] py-[20px] lg:py-[20px] flex justify-center items-center gap-1 bg-[#FA6410] text-white hover:bg-paragraphColor hover:text-white mt-8 text-xl mx-auto lg:mx-0"
+            aria-label="Back to home with StoryHome">
             <MdArrowBack />
             <p className="text-[18px] font-semibold">Back to home</p>
           </button>

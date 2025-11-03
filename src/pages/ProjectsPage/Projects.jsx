@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+/* eslint-disable no-unused-vars */
+import { useEffect, useState } from "react";
 import CommonBanner from "../../components/common/CommonBanner";
 import projectBanner from "../../assets/projectbanner.jpg";
 import { projectData } from "../../components/common/data";
-import { Link } from "react-router-dom";
 import ProjectCard from "../../components/common/ProjectCard";
+import SEO from "../../components/SEO/SEO";
 const Projects = () => {
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {
@@ -63,6 +64,12 @@ const Projects = () => {
   };
   return (
     <div>
+      <SEO
+        title="Our Projects - StoryHome"
+        description="Explore our interior design services including consultation, 3D design, and complete home makeover solutions"
+        keywords="interior design services, home consultation, 3D design"
+        canonicalUrl="https://65929af45e2c05aed0fdfd40--legendary-taiyaki-a3fbb8.netlify.app/projects"
+      />
       <CommonBanner
         title={"Our Project"}
         bread1={"Home"}
@@ -77,8 +84,7 @@ const Projects = () => {
                 ? "bg-[#C16828] text-white text-[18px] font-semibold w-[219px] h-[75px] rounded-[18px] cursor-pointer hover:shadow-md flex justify-center items-center"
                 : " text-[18px] font-semibold w-[219px] h-[75px] rounded-[18px] cursor-pointer hover:shadow-md flex justify-center items-center hover:text-[#C16828]"
             }
-            onClick={() => toggleTab(1)}
-          >
+            onClick={() => toggleTab(1)}>
             Bedroom
           </p>
           <p
@@ -87,8 +93,7 @@ const Projects = () => {
                 ? "bg-[#C16828] text-white text-[18px] font-semibold w-[219px] h-[75px] rounded-[18px] cursor-pointer hover:shadow-md flex justify-center items-center"
                 : "text-[18px] font-semibold w-[219px] h-[75px] rounded-[18px] cursor-pointer hover:shadow-md flex justify-center items-center hover:text-[#C16828]"
             }
-            onClick={() => toggleTab(2)}
-          >
+            onClick={() => toggleTab(2)}>
             Kitchen
           </p>
           <p
@@ -97,8 +102,7 @@ const Projects = () => {
                 ? "bg-[#C16828] text-white text-[18px] font-semibold w-[219px] h-[75px] rounded-[18px] cursor-pointer hover:shadow-md flex justify-center items-center hover:text-white"
                 : "text-[18px] font-semibold w-[219px] h-[75px] rounded-[18px] cursor-pointer hover:shadow-md flex justify-center items-center hover:text-[#C16828]"
             }
-            onClick={() => toggleTab(3)}
-          >
+            onClick={() => toggleTab(3)}>
             Living
           </p>
           <p
@@ -107,8 +111,7 @@ const Projects = () => {
                 ? "bg-[#C16828] text-white text-[18px] font-semibold w-[219px] h-[75px] rounded-[18px] cursor-pointer hover:shadow-md flex justify-center items-center hover:text-white"
                 : "text-[18px] font-semibold w-[219px] h-[75px] rounded-[18px] cursor-pointer hover:shadow-md flex justify-center items-center hover:text-[#C16828]"
             }
-            onClick={() => toggleTab(4)}
-          >
+            onClick={() => toggleTab(4)}>
             Bathroom
           </p>
           <p
@@ -117,8 +120,7 @@ const Projects = () => {
                 ? "bg-[#C16828] text-white text-[18px] font-semibold w-[219px] h-[75px] rounded-[18px] cursor-pointer hover:shadow-md flex justify-center items-center hover:text-white"
                 : "text-[18px] font-semibold w-[219px] h-[75px] rounded-[18px] cursor-pointer hover:shadow-md flex justify-center items-center hover:text-[#C16828]"
             }
-            onClick={() => toggleTab(5)}
-          >
+            onClick={() => toggleTab(5)}>
             Wall
           </p>
         </div>

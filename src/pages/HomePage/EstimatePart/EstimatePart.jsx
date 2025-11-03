@@ -1,4 +1,3 @@
-import React from "react";
 import estimateImg from "../../../assets/new.png";
 import estimate1Img from "../../../assets/estimate1Img.png";
 import Button from "../../../components/common/Button";
@@ -46,7 +45,10 @@ const EstimatePart = () => {
           </div>
           <Link to={"/pricing"}>
             {" "}
-            <Button title={"Get Free Estimate"} />
+            <Button
+              title={"Get Free Estimate"}
+              aria={"Get Free Estimate with storyhome"}
+            />
           </Link>
         </div>
       </div>

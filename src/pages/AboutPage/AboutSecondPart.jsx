@@ -1,4 +1,3 @@
-import React from "react";
 import img1 from "../../assets/aboutImage/banner1.png";
 import img2 from "../../assets/aboutImage/banner2.png";
 import Button from "../../components/common/Button";
@@ -8,11 +7,11 @@ const AboutSecondPart = () => {
   return (
     <div className="max-w-[1200px] mx-auto mb-20">
       <div className="flex flex-col justify-center items-center my-[120px] md:my-[180px] lg:my-[180px] relative">
-        <div class="w-[1px] min-h-[200px] bg-[#4D5053] absolute top-0 left-5 md:left-[115px] lg:left-32"></div>
-        <div class="w-[1px] min-h-[200px] bg-[#4D5053] absolute top-0 right-5 md:right-[115px] lg:right-32"></div>
+        <div className="w-[1px] min-h-[200px] bg-[#4D5053] absolute top-0 left-5 md:left-[115px] lg:left-32"></div>
+        <div className="w-[1px] min-h-[200px] bg-[#4D5053] absolute top-0 right-5 md:right-[115px] lg:right-32"></div>
         <h1 className="w-[312px] md:w-[530px] lg:w-[751px] text-2xl md:text-[29px] lg:text-[35px] text-center leading-[43px]">
-          I like an interior that defies labeling. I don't really want someone
-          to walk into a room and know that I did it
+          I like an interior that defies labeling. I don&apos;t really want
+          someone to walk into a room and know that I did it
         </h1>
         <p className="text-[23px] text-[#4D5053] mt-9">BUNNY WILLIAMS</p>
       </div>
@@ -29,7 +28,7 @@ const AboutSecondPart = () => {
           <Link
             to="/services"
             className="flex justify-center lg:justify-start md:justify-start">
-            <Button title={"Our Concept"} />
+            <Button title={"Our Concept"} aria="Our Concept with StoryHome" />
           </Link>
         </div>
         <div className="h-[300px] md:h-[400px] lg:h-[500px] rounded-tl-[130px] mx-[20px]  md:mx-0 lg:mx-0">
@@ -60,7 +59,10 @@ const AboutSecondPart = () => {
           <Link
             to={"/projects"}
             className="flex justify-center lg:justify-start md:justify-start">
-            <Button title={"Our Portfolio"} />
+            <Button
+              title={"Our Portfolio"}
+              aria="Our Portfolio with StoryHome"
+            />
           </Link>
         </div>
       </div>

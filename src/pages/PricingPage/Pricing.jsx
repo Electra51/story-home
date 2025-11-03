@@ -1,4 +1,3 @@
-import React from "react";
 import CommonBanner from "../../components/common/CommonBanner";
 import pricingBanner from "../../assets/pricing.png";
 import { PricingData } from "../../components/common/data";
@@ -16,26 +15,33 @@ const Pricing = () => {
         {PricingData?.map((pricedata, i) => {
           return (
             <div
-              class="divide-y divide-gray-200 text-center drop-shadow-md hover:bg-[#f5e3d88a] hover:rounded-[15px] group hover:text-[#C16828]"
+              className="divide-y divide-gray-200 text-center drop-shadow-md hover:bg-[#f5e3d88a] hover:rounded-[15px] group hover:text-[#C16828]"
               key={i}>
               <div>
-                <h1 class="text-[27px] mt-8 font-normal">{pricedata.title}</h1>
-                <h1 class="text-[85px]">
+                <h1 className="text-[27px] mt-8 font-normal">
+                  {pricedata.title}
+                </h1>
+                <h1 className="text-[85px]">
                   <span className="text-[25px]">$</span>
                   {pricedata.price}
-                  <span class="text-[25px] font-normal">/month</span>
+                  <span className="text-[25px] font-normal">/month</span>
                 </h1>
               </div>
 
-              <div class="px-6 pt-6 pb-8">
-                <h3 class="text-[20px] font-medium">What's included</h3>
-                <ul class="mt-6 space-y-3 text-[18px] text-[#4D5053] hover:text-[#C16828] font-normal">
+              <div className="px-6 pt-6 pb-8">
+                <h3 className="text-[20px] font-medium">
+                  What&apos;s included
+                </h3>
+                <ul className="mt-6 space-y-3 text-[18px] text-[#4D5053] hover:text-[#C16828] font-normal">
                   {pricedata.services?.map((service, i) => {
                     return <li key={i}>{service.name}</li>;
                   })}
                 </ul>
                 <div className="flex justify-center items-center mt-10">
-                  <Button title={"Get Started"} />
+                  <Button
+                    title={"Get Started"}
+                    aria={"get started to storyhome"}
+                  />
                 </div>
               </div>
             </div>

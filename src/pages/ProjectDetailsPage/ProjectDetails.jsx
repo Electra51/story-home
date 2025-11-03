@@ -1,9 +1,12 @@
-import React, { useEffect, useState } from "react";
+/* eslint-disable react/jsx-key */
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { projectData } from "../../components/common/data";
 import detailsBanner from "../../assets/projectImage/banner.jpg";
 import CommonBanner from "../../components/common/CommonBanner";
 import { MdSearch } from "react-icons/md";
+import SEO from "../../components/SEO/SEO";
 const ProjectDetails = () => {
   const { id } = useParams();
   const [idData, setIdData] = useState([]);
@@ -16,6 +19,12 @@ const ProjectDetails = () => {
 
   return (
     <div>
+      <SEO
+        title="Our Projects details - StoryHome"
+        description="Explore our interior design services including consultation, 3D design, and complete home makeover solutions"
+        keywords="interior design services, home consultation, 3D design"
+        canonicalUrl="https://65929af45e2c05aed0fdfd40--legendary-taiyaki-a3fbb8.netlify.app/projects"
+      />
       <CommonBanner
         title={"Projects Details"}
         bannerImage={detailsBanner}

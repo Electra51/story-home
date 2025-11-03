@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/no-unknown-property */
 import serviceDetailsImage from "../../assets/serviceImage/everyServices.png";
 import CommonBanner from "../../components/common/CommonBanner";
 import BrandingPart from "../HomePage/BrandingPart/BrandingPart";
@@ -6,9 +7,16 @@ import newImage from "../../assets/imgService11.png";
 import Button from "../../components/common/Button";
 import StatsPart from "../HomePage/StatsPart/StatsPart";
 import { Link } from "react-router-dom";
+import SEO from "../../components/SEO/SEO";
 const ServiceDetails = () => {
   return (
     <div>
+      <SEO
+        title="Our Projects details - StoryHome"
+        description="Explore our interior design services including consultation, 3D design, and complete home makeover solutions"
+        keywords="interior design services, home consultation, 3D design"
+        canonicalUrl="https://65929af45e2c05aed0fdfd40--legendary-taiyaki-a3fbb8.netlify.app/projects"
+      />
       <CommonBanner
         title={"Single Services"}
         bread1={"Home"}
@@ -124,7 +132,10 @@ const ServiceDetails = () => {
               the of readable content .
             </p>
             <Link to="/projects">
-              <Button title={"Our Portfolio"} />
+              <Button
+                title={"Our Portfolio"}
+                aria={"Our Portfolio to storyhome"}
+              />
             </Link>
           </div>
         </div>
