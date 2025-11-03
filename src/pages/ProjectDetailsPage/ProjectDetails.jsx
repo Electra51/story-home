@@ -23,7 +23,7 @@ const ProjectDetails = () => {
         title="Our Projects details - StoryHome"
         description="Explore our interior design services including consultation, 3D design, and complete home makeover solutions"
         keywords="interior design services, home consultation, 3D design"
-        canonicalUrl="https://65929af45e2c05aed0fdfd40--legendary-taiyaki-a3fbb8.netlify.app/projects"
+        canonicalUrl="https://story-home-six.vercel.app/projects"
       />
       <CommonBanner
         title={"Projects Details"}
@@ -43,8 +43,9 @@ const ProjectDetails = () => {
           </div>
           <div className="w-[350px] lg:w-[1200px] h-[341px] lg:h-[561px] relative">
             <img
+              loading="lazy"
               src={idData[0]?.img}
-              alt=""
+              alt={idData[0]?.title}
               className="h-full w-full object-fill rounded-[100px]"
             />
             <div className="h-[50px] w-[50px] lg:h-[70px] lg:w-[70px] rounded-full flex justify-center items-center bg-white hover:bg-[#C16828] text-[#C16828] hover:text-white text-xl lg:mx-0 drop-shadow-xl overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out absolute top-32 lg:top-52 left-[50%]">

@@ -10,7 +10,7 @@ const Contact = () => {
         title="Our contact - StoryHome"
         description="Explore our interior design services including consultation, 3D design, and complete home makeover solutions"
         keywords="interior design services, home consultation, 3D design"
-        canonicalUrl="https://65929af45e2c05aed0fdfd40--legendary-taiyaki-a3fbb8.netlify.app/contact"
+        canonicalUrl=" https://story-home-six.vercel.app/contact"
       />
       <CommonBanner
         title={"Contact Us"}

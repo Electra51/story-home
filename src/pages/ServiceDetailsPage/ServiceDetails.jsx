@@ -15,7 +15,7 @@ const ServiceDetails = () => {
         title="Our Projects details - StoryHome"
         description="Explore our interior design services including consultation, 3D design, and complete home makeover solutions"
         keywords="interior design services, home consultation, 3D design"
-        canonicalUrl="https://65929af45e2c05aed0fdfd40--legendary-taiyaki-a3fbb8.netlify.app/projects"
+        canonicalUrl="https://story-home-six.vercel.app/projects"
       />
       <CommonBanner
         title={"Single Services"}
@@ -118,6 +118,7 @@ const ServiceDetails = () => {
         <div className="mt-[130px] grid grid-cols-1 lg:grid-cols-2 gap-[50px]">
           <div className="h-[390px]">
             <img
+              loading="lazy"
               src={newImage}
               alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
               className="h-full w-full object-fill rounded-tr-[100px]"

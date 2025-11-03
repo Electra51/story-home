@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import CommonBanner from "../../components/common/CommonBanner";
@@ -68,7 +69,7 @@ const Projects = () => {
         title="Our Projects - StoryHome"
         description="Explore our interior design services including consultation, 3D design, and complete home makeover solutions"
         keywords="interior design services, home consultation, 3D design"
-        canonicalUrl="https://65929af45e2c05aed0fdfd40--legendary-taiyaki-a3fbb8.netlify.app/projects"
+        canonicalUrl="https://story-home-six.vercel.app/projects"
       />
       <CommonBanner
         title={"Our Project"}

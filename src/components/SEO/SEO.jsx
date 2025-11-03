@@ -12,8 +12,7 @@ const SEO = ({
   canonicalUrl,
   author,
 }) => {
-  const siteUrl =
-    "https://65929af45e2c05aed0fdfd40--legendary-taiyaki-a3fbb8.netlify.app";
+  const siteUrl = " https://story-home-six.vercel.app";
 
   return (
     <Helmet>

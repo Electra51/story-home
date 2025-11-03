@@ -12,6 +12,7 @@ const BrandingPart = () => {
               <div className="flex flex-wrap items-center gap-10 justify-center">
                 <a className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
                   <img
+                    loading="lazy"
                     src="https://cdn.tailgrids.com/2.0/image/assets/images/brands/graygrids.svg"
                     alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
                     className="w-full h-10"
@@ -19,6 +20,7 @@ const BrandingPart = () => {
                 </a>
                 <a className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
                   <img
+                    loading="lazy"
                     src={branding1}
                     alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
                     className="w-full h-6"
@@ -26,6 +28,7 @@ const BrandingPart = () => {
                 </a>
                 <a className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
                   <img
+                    loading="lazy"
                     src={branding2}
                     alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
                     className="w-full h-8"
@@ -33,6 +36,7 @@ const BrandingPart = () => {
                 </a>
                 <a className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
                   <img
+                    loading="lazy"
                     src={branding3}
                     alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
                     className="w-full h-6"
@@ -40,6 +44,7 @@ const BrandingPart = () => {
                 </a>{" "}
                 <a className="mx-4 flex w-[100px] items-center justify-center py-5 2xl:w-[90px]">
                   <img
+                    loading="lazy"
                     src={branding4}
                     alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
                     className="w-full h-8"

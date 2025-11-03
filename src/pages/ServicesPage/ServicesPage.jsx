@@ -17,8 +17,9 @@ const ServicesPage = () => {
         title="Our Services - StoryHome"
         description="Explore our interior design services including consultation, 3D design, and complete home makeover solutions"
         keywords="interior design services, home consultation, 3D design"
-        canonicalUrl="https://65929af45e2c05aed0fdfd40--legendary-taiyaki-a3fbb8.netlify.app/services"
+        canonicalUrl=" https://story-home-six.vercel.app/services"
       />
+
       <CommonBanner
         title={"Services"}
         bannerImage={servicesBanner}
@@ -47,6 +48,7 @@ const ServicesPage = () => {
               01
             </h1>
             <img
+              loading="lazy"
               src={img1}
               alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
               className="h-full w-full rounded-bl-[360px] rounded-tr-[300px] object-fill"
@@ -74,6 +76,7 @@ const ServicesPage = () => {
               02
             </h1>
             <img
+              loading="lazy"
               src={img2}
               alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
               className="h-full w-full rounded-bl-[360px] rounded-tr-[300px] object-fill"
@@ -87,6 +90,7 @@ const ServicesPage = () => {
               03
             </h1>
             <img
+              loading="lazy"
               src={img3}
               alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
               className="h-full w-full rounded-bl-[360px] rounded-tr-[300px] object-fill"
@@ -114,6 +118,7 @@ const ServicesPage = () => {
               04
             </h1>
             <img
+              loading="lazy"
               src={img4}
               alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
               className="h-full w-full rounded-bl-[360px] rounded-tr-[300px] object-fill"

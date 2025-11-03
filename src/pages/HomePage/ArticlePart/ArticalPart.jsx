@@ -20,6 +20,7 @@ const ArticalPart = () => {
             <div key={i} className="h-[480px] border rounded-[20px] p-3">
               <div className=" h-[300px] w-full rounded-[16px] overflow-hidden">
                 <img
+                  loading="lazy"
                   src={e.img}
                   alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
                   className="h-full w-full object-fill rounded-[16px] hover:scale-125 transition-all duration-500 cursor-pointer"

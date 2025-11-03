@@ -1,5 +1,3 @@
-import React from "react";
-
 const StatsPart = () => {
   return (
     <div className="bg-[#fcefe76b]">

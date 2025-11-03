@@ -33,6 +33,7 @@ const AboutSecondPart = () => {
         </div>
         <div className="h-[300px] md:h-[400px] lg:h-[500px] rounded-tl-[130px] mx-[20px]  md:mx-0 lg:mx-0">
           <img
+            loading="lazy"
             src={img1}
             alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
             className="h-full w-full object-fill rounded-tl-[130px]"
@@ -42,6 +43,7 @@ const AboutSecondPart = () => {
       <div className="md:mx-[35px] lg:mx-0 grid-cols-1 grid md:grid-cols-2 lg:grid-cols-2 md:justify-normal lg:justify-normal items-center gap-20 md:gap-10 lg:gap-10 my-[190px]">
         <div className="h-[300px] md:h-[400px] lg:h-[500px] mx-[20px]  md:mx-0 lg:mx-0 rounded-tr-[130px]">
           <img
+            loading="lazy"
             src={img2}
             alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
             className="h-full w-full object-fill rounded-tr-[130px]"

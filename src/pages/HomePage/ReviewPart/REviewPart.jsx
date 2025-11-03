@@ -51,7 +51,7 @@ const REviewPart = () => {
                   {" "}
                   <div className="avatar">
                     <div className="w-12 rounded-full">
-                      <img src={d.img} alt={d.user} />
+                      <img src={d.img} alt={d.user} loading="lazy" />
                     </div>
                   </div>
                   <div>

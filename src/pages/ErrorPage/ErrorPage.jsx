@@ -7,6 +7,7 @@ const ErrorPage = () => {
         {" "}
         <div className="md:w-[538px] lg:w-[738px] md:h-[416px] lg:h-[616px]">
           <img
+            loading="lazy"
             src={ErrorImage}
             alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
             className="h-full w-full object-fill"
