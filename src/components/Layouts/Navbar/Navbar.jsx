@@ -5,6 +5,7 @@ import MobileNavigation from "./MobileNavigation";
 import Navigation from "./Navigation";
 import { FaSearch } from "react-icons/fa";
 import navLogo from "../../../assets/navLogo1.png";
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const items = (
@@ -27,7 +28,11 @@ const Navbar = () => {
         <div className="flex justify-normal items-center">
           <div className="flex justify-between items-end">
             <Link to="/">
-              <img src={navLogo} alt="" className="w-[120px] lg:w-[340px]" />
+              <img
+                src={navLogo}
+                alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
+                className="w-[120px] lg:w-[340px]"
+              />
             </Link>
             <Navigation isMobile={false} setOpen={setOpen} />
           </div>

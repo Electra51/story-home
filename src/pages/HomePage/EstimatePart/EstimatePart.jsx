@@ -10,13 +10,13 @@ const EstimatePart = () => {
         <div className="max-w-[360px] md:max-w-[720px] md:h-[380px] lg:max-w-[1200px] h-[340px] lg:h-[650px] mx-auto mt-[70px] text-white rounded-tr-[200px] relative bg-gradient-to-tl from-gray-500 to-[#895531] md:hidden lg:hidden">
           <img
             src={estimate1Img}
-            alt=""
+            alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
             className="h-full w-full object-fill rounded-tr-[200px] absolute mix-blend-overlay"
           />
         </div>
         <img
           src={estimateImg}
-          alt=""
+          alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
           className="h-full w-full object-fill absolute hidden md:flex lg:flex"
         />
         <div className="absolute top-5 left-5 md:top-10 md:left-8 lg:top-28 lg:left-[80px]">

@@ -34,7 +34,7 @@ const AboutSecondPart = () => {
         <div className="h-[300px] md:h-[400px] lg:h-[500px] rounded-tl-[130px] mx-[20px]  md:mx-0 lg:mx-0">
           <img
             src={img1}
-            alt=""
+            alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
             className="h-full w-full object-fill rounded-tl-[130px]"
           />
         </div>
@@ -43,7 +43,7 @@ const AboutSecondPart = () => {
         <div className="h-[300px] md:h-[400px] lg:h-[500px] mx-[20px]  md:mx-0 lg:mx-0 rounded-tr-[130px]">
           <img
             src={img2}
-            alt=""
+            alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
             className="h-full w-full object-fill rounded-tr-[130px]"
           />
         </div>

@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+
 import dotImage from "../../assets/Dot.png";
 import { Link } from "react-router-dom";
 

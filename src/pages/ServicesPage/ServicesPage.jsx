@@ -48,7 +48,7 @@ const ServicesPage = () => {
             </h1>
             <img
               src={img1}
-              alt=""
+              alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
               className="h-full w-full rounded-bl-[360px] rounded-tr-[300px] object-fill"
             />
           </div>
@@ -75,7 +75,7 @@ const ServicesPage = () => {
             </h1>
             <img
               src={img2}
-              alt=""
+              alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
               className="h-full w-full rounded-bl-[360px] rounded-tr-[300px] object-fill"
             />
           </div>
@@ -88,7 +88,7 @@ const ServicesPage = () => {
             </h1>
             <img
               src={img3}
-              alt=""
+              alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
               className="h-full w-full rounded-bl-[360px] rounded-tr-[300px] object-fill"
             />
           </div>
@@ -115,7 +115,7 @@ const ServicesPage = () => {
             </h1>
             <img
               src={img4}
-              alt=""
+              alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
               className="h-full w-full rounded-bl-[360px] rounded-tr-[300px] object-fill"
             />
           </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -8,7 +7,11 @@ const Footer = () => {
     <div className="border-t border-[#ECECEC] pt-7">
       <div className="flex flex-col lg:flex-row justify-start items-center lg:items-start gap-[100px] max-w-[1200px] mx-auto pt-[79px] ">
         <div className="flex flex-col justify-center items-center lg:block">
-          <img src={navLogo} alt="" className="w-[120px] lg:w-[150px]" />
+          <img
+            src={navLogo}
+            alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
+            className="w-[120px] lg:w-[150px]"
+          />
           <h3 className="text-[#565656] text-[14px] mt-[27px] w-[333px] text-center lg:text-start">
             It is a long established fact that a reader will be distracted
             lookings.

@@ -119,7 +119,7 @@ const ServiceDetails = () => {
           <div className="h-[390px]">
             <img
               src={newImage}
-              alt=""
+              alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
               className="h-full w-full object-fill rounded-tr-[100px]"
             />
           </div>

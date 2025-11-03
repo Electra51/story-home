@@ -6,7 +6,11 @@ const ErrorPage = () => {
       <div className="relative">
         {" "}
         <div className="md:w-[538px] lg:w-[738px] md:h-[416px] lg:h-[616px]">
-          <img src={ErrorImage} alt="" className="h-full w-full object-fill" />
+          <img
+            src={ErrorImage}
+            alt="Modern living room interior with orange sofa, indoor plants, and wooden furniture"
+            className="h-full w-full object-fill"
+          />
         </div>
         <div className="md:ml-auto lg:ml-auto absolute top-60 md:top-52 lg:top-52 left-0 md:right-0 lg:right-0 w-[350px] md:w-[500px] lg:w-[500px]">
           {" "}

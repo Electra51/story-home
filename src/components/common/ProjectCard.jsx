@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import { IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 
@@ -9,6 +9,7 @@ const ProjectCard = ({ e }) => {
       <div className="md:h-[323px] lg:h-[470px] overflow-hidden">
         <img
           src={e.img}
+          alt={`Comfortable ${e?.title} in contemporary home setting`}
           className="h-full w-full object-fill rounded-tr-[80%] hover:scale-125 transition-all duration-500 cursor-pointer hover:rounded-none"
         />
       </div>
@@ -20,12 +21,12 @@ const ProjectCard = ({ e }) => {
       </p>
 
       <Link to={`/projects/${e.id}`}>
-        <div class="box">
-          <div class="studio-button">
-            <div class="studio-button-icon">
+        <div className="box">
+          <div className="studio-button">
+            <div className="studio-button-icon">
               <IoIosArrowForward className="text-2xl" />
             </div>
-            <div class="studio-button-label">View Details</div>
+            <div className="studio-button-label">View Details</div>
           </div>
         </div>
       </Link>
